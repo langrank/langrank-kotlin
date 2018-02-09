@@ -1,7 +1,18 @@
 # НАЧАЛО РАБОТЫ
 
-### Установить sdkman
+### Установка SDKMAN!
 
 http://sdkman.io/install.html
 
-### Установить компилятор языка Kotlin
+### Установка компилятора языка Kotlin
+
+```bash
+sdk install java
+sdk install kotlin
+```
+
+### Запуск
+
+```bash
+  gradle run
+```

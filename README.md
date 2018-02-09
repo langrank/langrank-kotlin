@@ -1,12 +1,20 @@
-# НАЧАЛО РАБОТЫ
+# CURRATED LIST OF CHEAT SHEETS FOR KOTLIN LANGUAGE
 
-### Установить sdkman
+# START OF PROJECT
+
+### SDKMAN! installation
 
 http://sdkman.io/install.html
 
-### Установить компилятор языка Kotlin
+### Kotlin compiler installation
 
 ```bash
 sdk install java
 sdk install kotlin
+```
+
+### running the project
+
+```bash
+  gradle run
 ```

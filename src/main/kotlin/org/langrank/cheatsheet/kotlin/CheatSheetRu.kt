@@ -118,7 +118,12 @@ fun main(args: Array<String>) {
   //в обратном порядке
   for (a in 10 downTo 1) println(a)
 
-  //ОБЪЕКТНО-ОРИЕТИРОВАННОЕ ПРОГРАММИРОВАНИЕ (object oriented programming)
+  //цикл for пригоден для итерирования по коллекциям
+  var arr = Array<Int>(10, {i -> i + 1})
+  for (item in arr) println("-> " + item)
+  for ((index, item) in arr.withIndex()) println("" + index + " -> " + item)
+
+  //ОБЪЕКТНО-ОРИЕНТИРОВАННОЕ ПРОГРАММИРОВАНИЕ (object oriented programming)
   println("\r\n----OBJECT ORIENTED PROGRAMMING SECTION----\r\n")
 
   //базовая форма определения класса

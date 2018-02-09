@@ -30,6 +30,6 @@ dependencies {
 
     compile group: "org.jetbrains.kotlinx", name: "kotlinx-coroutines-jdk8", version: "$kotlin_coroutines_version"
     compile group: "org.jetbrains.kotlinx", name: "kotlinx-coroutines-core", version: "$kotlin_coroutines_version"
-    compile group: "org.jetbrains.kotlinx", name: "kotlinx-coroutines-io", version: "0.22.2"
+    compile group: "org.jetbrains.kotlinx", name: "kotlinx-coroutines-io", version: "$kotlin_coroutines_version"
     compile group: "org.jetbrains.kotlin", name: "kotlin-reflect", version: "$kotlin_version"
 }
